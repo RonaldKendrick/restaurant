@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Responsive Grid Template</title>
+  <link href="css/main.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Owl Carousel Styles -->
+  <link href="css/owl.carousel.min.css" rel="stylesheet">
+  <link href="css/owl.theme.default.min.css" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <div id="logo"> <img src="img/logo.png" alt="Dragon Logo"></div>
+      <div id="name"><h1><b>Shanghai Tokyo</b></h1></div>
+    </header>
+
+    <main>
+      <div id="menu"><h2><a href="#">Menu</a></h2>
+        <p><b>Enter your email for a free Egg Roll!</b></p>
+      <form action="thanks.html" method="post">
+          <b>Email Address</b>
+          <input type="text" name="emailaddress">
+         <input type="submit" value="Submit">
+      </form>
+    </div>
+      <div id="hours">
+        <table>
+          <caption><b>Hours</b></caption>
+            <thead>
+              <tr>
+                <th>Days</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td aria-label="Days">Monday</td>
+                <td aria-atomic="Time">11AM-10PM</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Tuesday</td>
+                <td aria-label="Time">Closed</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Wednesday</td>
+                <td aria-label="Time">11AM-10PM</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Thursday</td>
+                <td aria-label="Time">11AM-10PM</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Friday</td>
+                <td aria-label="Time">11AM-10:30PM</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Saturday</td>
+                <td aria-label="Time">11AM-10:30PM</td>
+              </tr>
+
+              <tr>
+                <td aria-label="Days">Sunday</td>
+                <td aria-label="Time">12AM-10PM</td>
+              </tr>
+            </tbody>
+        </table>
+      </div>
+      <div id="phone"><h2><b>Phone Number</h2> <h2>864-888-888 Call Now!</h2></b></div>
+      <div id="carousel">
+      <div class="owl-carousel owl-theme">
+      <div><img src="img/beef_broccoli.jpg" alt="Beef with Broccoli and Served with White Rice"></div>
+      <div><img src="img/crab_rangoon.jpg" alt="Crab Rangoon"></div>
+      <div><img src="img/mongolian_beef.jpg" alt="Mongolian Beef"></div>
+      <div><img src="img/sesame_chicken.jpg" alt="Sesame Chicken with Broccoli"></div>
+      <div><img src="img/teriyaki_chicken.jpg" alt="Teriyaki Chicken Served with White Rice and Bok Choy"></div>
+      </div>
+      </div>
+    </main>
+
+    <footer>
+      <div id="contact"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.946720176095!2d-82.2338535847649!3d34.8072822804073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88582813f8370f0d%3A0x81a4a518a53b479e!2sShanghai+Tokyo+Chinese!5e0!3m2!1sen!2sus!4v1518622945923" width="450" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+      <div id="social">
+        <a href="https://www.instagram.com/gamecockfb/?hl=en">
+          <img class="logo" src="img/instagram_logo.png" alt="Shanghai Tokyo Instagram"></a>
+
+         <a href="https://twitter.com/GamecocksOnline?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+          <img class="logo" src="img/twitter_logo.png" alt="Shanghai Tokyo Twitter"></a>
+
+         <a href="https://www.facebook.com/Gamecocksonline/">
+          <img class="logo" src="img/facebook_logo.png" alt="Shanghai Tokyo Facebook"></a>
+          <p>Kevin L</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- first load jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <!-- owl carousel stuff -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            dots: true,
+            items: 2,
+            loop: true,
+            margin: 10,
+            nav: false
+        })
+      });
+    </script>
+
+</body>
+</html>
