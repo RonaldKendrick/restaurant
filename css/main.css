@@ -12,9 +12,9 @@ body {
   background-image: url("../img/background.jpg");
   background-repeat: repeat;
   background-position: center;
-  background-size: 1000px 600px;
-  background-color: #111111;
-  font-family: 'Mukta Malar', sans-serif;
+  background-size: 1300px 1500px;
+  background-color: #11111;
+  font-family: 'Courgette', cursive;
 }
 
 div.container {
@@ -30,7 +30,6 @@ header, main, footer {
 /* phones (base layout is mobile-first) */
 header {
   /*border: 3px solid #990000; /* disable this line once layout works */
-  background-color: #FFFFFF;
   display: grid;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
@@ -113,7 +112,6 @@ iframe {
   }
 
   main {
-    background-color: #DB0000;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
       "carousel carousel carousel"
@@ -181,13 +179,17 @@ div#social {
 /* Headings */
 h1 {
     font-size: 120px;
-    color: #db0000;
+    color: #ff0000;
+    text-shadow: 5px 5px 5px black;
+    text-align: center;
 }
 
 h2 {
-
 }
 
+h2.story {
+  padding: 50px;
+}
 h3 {
 
 }
@@ -226,7 +228,6 @@ li {
 /* tables */
 
 table {
-
 }
 
 caption {
