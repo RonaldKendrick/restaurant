@@ -12,7 +12,8 @@ body {
   background-image: url("../img/background.jpg");
   background-repeat: repeat;
   background-position: center;
-  background-size: 1300px 1500px;
+  background-size: cover;
+  background-attachment: fixed;
   background-color: #11111;
   font-family: 'Courgette', cursive;
 }
