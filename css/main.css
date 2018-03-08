@@ -119,6 +119,13 @@ iframe {
       "phone menu hours";
   }
 
+  main.menu-page {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "appetizer soup"
+    "combination chefspecial"
+  }
+
   footer {
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
@@ -186,6 +193,13 @@ h1 {
 }
 
 h2 {
+
+}
+
+h2.menu-page {
+  text-align: left;
+  text-shadow: 1px 1px 1px white;
+
 }
 
 h2.story {
@@ -200,6 +214,8 @@ h4 {
 }
 
 h5 {
+text-align: left;
+text-shadow: 1px 1px 1px white;
 
 }
 
@@ -215,7 +231,7 @@ p {
 }
 
 ol {
-
+text-align: left;
 }
 
 ul {
@@ -223,7 +239,7 @@ ul {
 }
 
 li {
-
+font-size: 17px;
 }
 
 /* tables */
